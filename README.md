@@ -26,3 +26,10 @@ Next, drag and drop the Chug.app application in the repository `build` directory
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-install.gif" alt="Chug drag and drop install" width="375">
 
+## Usage
+
+Double click that handsome beer label icon to start chugging...
+
+<img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-click.gif" alt="Chug drag and drop install" width="300">
+
+
