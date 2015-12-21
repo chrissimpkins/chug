@@ -22,5 +22,7 @@ $ git clone https://github.com/chrissimpkins/chug.git
 
 or [download the repository ZIP archive file](https://github.com/chrissimpkins/chug/archive/master.zip) and unpack it locally on your system.
 
-Next, drag and drop the Chug.app application in the repository `build` directory to a directory on your OS X system. The Desktop is a pretty handy site.
+Next, drag and drop the Chug.app application in the repository `build` directory to a directory on your OS X system. The Desktop is a pretty handy site but you can place it anywhere that you like.
+
+<img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-install.gif" alt="Chug drag and drop install" width="375">
 
