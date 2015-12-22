@@ -25,7 +25,7 @@ Use the following command to confirm that the Homebrew executable is installed o
 $ which brew
 ```
 
-If the output from the above command is not `usr/local/bin/brew`, please see the [Homebrew documentation](http://brew.sh/) for details on how to install on the recommended path.
+If the output from the above command is not `usr/local/bin/brew`, please see the [Homebrew documentation](http://brew.sh/) for details on how to modify your install path.
 
 
 ## Install
