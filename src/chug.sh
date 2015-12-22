@@ -1,12 +1,11 @@
 #!/bin/sh
 
 # chug.sh
-# Clickable Homebrew package management on OS X
+# Double-click Homebrew package management for OS X
 # Copyright 2015 Christopher Simpkins
 # MIT License
 
 echo "Chugging..."
-echo " "
 
 CHUG_BREW_PATH="/usr/local/bin/brew"
 
@@ -15,6 +14,7 @@ if [ -f "$CHUG_BREW_PATH" ]; then
 	# increment progress bar
 	echo "PROGRESS:25"
 else
+	echo " "
 	echo "ALERT:Chug|There was an error with the Homebrew path.  Please see the log under the Details dropdown for additional information."
 	echo "[X] ERROR: Chug was unable to identify the Homebrew executable 'brew' on the path '/usr/local/bin/brew'.  This is a requirement for execution."
 	echo " "
@@ -23,12 +23,13 @@ else
 fi
 
 # Update Homebrew packages
-echo "[+]=== Updating Homebrew packages..."
 echo " "
+echo "[1] Updating Homebrew packages..."
 
 ${CHUG_BREW_PATH} update
 
 if (( $? )); then
+	echo " "
 	echo "ALERT:Chug|There was an error with the Homebrew package updates. Please see the log under the Details dropdown for additional information."
 	exit 1
 else
@@ -36,13 +37,14 @@ else
 	echo "PROGRESS:50"
 fi
 
-# Upgrade all installed Homebrew packages
+# Upgrade all installed Homebrew packages to current releases
 echo " "
-echo "[+]=== Looking for outdated Homebrew packages..."
-echo " "
+echo "[2] Looking for outdated Homebrew packages..."
+
 ${CHUG_BREW_PATH} upgrade --all
 
 if (( $? )); then
+	echo " "
 	echo "ALERT:Chug|There was an error with the Homebrew package upgrades. Please see the log under the Details dropdown for additional information."
 	exit 1
 else
@@ -50,13 +52,14 @@ else
 	echo "PROGRESS:75"
 fi
 
-# Cleanup old Homebrew packages after the install
+# Cleanup outdated Homebrew packages after the upgrades
 echo " "
-echo "[+]=== Cleaning up outdated Homebrew packages..."
-echo " "
+echo "[3] Cleaning up outdated Homebrew packages..."
+
 ${CHUG_BREW_PATH} cleanup
 
 if (( $? )); then
+	echo " "
 	echo "ALERT:Chug|There was an error with the Homebrew package cleanup following the package upgrades. Please see the log under the Details dropdown for additional information."
 	exit 1
 else
