@@ -50,7 +50,7 @@ Double click that handsome beer label icon to start chugging...
 
 ### Package Updates
 
-By default, your package updates and cleanup are monitored with a progress bar.
+By default, your package updates and cleanup are indicated with a progress bar and status update text.
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-quiet.gif" alt="Progress bar displays Chug progress" width="450">
 
