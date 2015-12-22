@@ -52,7 +52,7 @@ Double click that handsome beer label icon to start chugging...
 
 By default, your package updates and cleanup are indicated with a progress bar and status update text.
 
-<img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-quiet.gif" alt="Progress bar displays Chug progress" width="450">
+<img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-quiet-2.gif" alt="Progress bar displays Chug progress" width="450">
 
 Click the Details dropdown to view the standard output text from Homebrew as the updates and cleanup take place (or afterwards to review a log of your updates).
 
