@@ -40,4 +40,4 @@ By default, your package updates and cleanup are monitored with a progress bar.
 
 Click the Details dropdown to view the standard output text from Homebrew as the updates and cleanup take place.
 
-
+<img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-verbose.gif" alt="Verbose output with the Details dropdown" width="450">
