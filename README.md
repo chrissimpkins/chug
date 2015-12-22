@@ -10,7 +10,7 @@ Chug is an OS X application that turns your routine installed Homebrew package u
 
 OS X 10.7 or later and support for 64-bit Intel binaries
 
-The Homebrew executable must be installed on the path `/usr/local/bin/brew` (as recommended by the Homebrew developers).  Please see the [Homebrew documentation](http://brew.sh/) for install details.
+The Homebrew executable must be installed on the path `/usr/local/bin/brew` (as [recommended by the Homebrew developers](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/FAQ.md#why-does-homebrew-insist-i-install-to-usrlocal)).  Please see the [Homebrew documentation](http://brew.sh/) for install details.
 
 ## Install
 
