@@ -46,7 +46,7 @@ Click the Quit button to close the update progress indicator window and exit Chu
 
 ## Issues
 
-If you come across any issues with Chug, please [submit a new issue report](https://github.com/chrissimpkins/chug/issues/new) on the Github repository issue tracker.
+If Chug isn't cool, refreshing, with no aftertaste, please [submit a new issue report](https://github.com/chrissimpkins/chug/issues/new) on the Github repository issue tracker.
 
 
 ## License
