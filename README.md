@@ -4,7 +4,14 @@
 
 ## What is Chug?
 
-Chug is an OS X application that turns your routine installed Homebrew package upgrades and outdated package cleanup into a simple double click workflow.
+Chug is an OS X application that turns your routine installed Homebrew package upgrades and outdated package cleanup into a simple desktop icon double click workflow.
+
+The tool will perform the following actions through Homebrew:
+
+- Update the Homebrew formulae
+- Examine your system for outdated packages
+- Upgrade all outdated packages
+- Remove all outdated packages following successful upgrades
 
 ## System Requirements
 
