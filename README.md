@@ -45,7 +45,7 @@ By default, your package updates and cleanup are monitored with a progress bar.
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-quiet.gif" alt="Progress bar displays Chug progress" width="450">
 
-Click the Details dropdown to view the standard output text from Homebrew as the updates and cleanup take place.
+Click the Details dropdown to view the standard output text from Homebrew as the updates and cleanup take place (or afterwards to review a log of your updates).
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-verbose.gif" alt="Verbose output with the Details dropdown" width="450">
 
