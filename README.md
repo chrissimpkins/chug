@@ -17,7 +17,16 @@ The tool will perform the following actions through Homebrew without the need fo
 
 OS X 10.7 or later and support for 64-bit Intel binaries
 
-The Homebrew executable must be installed on the path `/usr/local/bin/brew` (as [recommended by the Homebrew developers](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/FAQ.md#why-does-homebrew-insist-i-install-to-usrlocal)).  Please see the [Homebrew documentation](http://brew.sh/) for install details.
+The Homebrew executable must be installed on the path `/usr/local/bin/brew` (as [recommended by the Homebrew developers](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/FAQ.md#why-does-homebrew-insist-i-install-to-usrlocal)).
+
+Use the following command to confirm that the Homebrew executable is installed on the correct path:
+
+```
+$ which brew
+```
+
+If the output from the above command is not `usr/local/bin/brew`, please see the [Homebrew documentation](http://brew.sh/) for details on how to install on the recommended path.
+
 
 ## Install
 
