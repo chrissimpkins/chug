@@ -41,3 +41,17 @@ By default, your package updates and cleanup are monitored with a progress bar.
 Click the Details dropdown to view the standard output text from Homebrew as the updates and cleanup take place.
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-verbose.gif" alt="Verbose output with the Details dropdown" width="450">
+
+Click the Quit button to close the update progress indicator window and exit Chug.
+
+## Issues
+
+If you come across any issues with Chug, please [submit a new issue report](https://github.com/chrissimpkins/chug/issues/new) on the Github repository issue tracker.
+
+
+## License
+
+Chug is licensed under the MIT license.  The full text of the license is [here](https://github.com/chrissimpkins/chug/blob/master/LICENSE).
+
+
+## Prost!
