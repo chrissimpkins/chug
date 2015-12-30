@@ -70,7 +70,7 @@ Then, configure the Platypus profile settings:
 - **Platypus Icon** : Icon Selection Button > Select Image File > `[local Chug repository parent directory path]/chug/img/chug@3x.png`
 - **Identifier** : com.csimpkins.Chug
 - **Author** :  Christopher Simpkins
-- **Version** : *set to the appropriate version number*
+- **Version** : *set to the appropriate version number* ([changelog](https://github.com/chrissimpkins/chug/blob/master/CHANGELOG.md))
 - **Bundled Files** : `[local Chug repository parent directory path]/chug/docs/Credits.html`
 
 Check the `Remain running after initial execution` checkbox and uncheck any others that are checked by default.  Click the `Create` button and build your application in the directory of your choice.
