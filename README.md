@@ -13,6 +13,13 @@ The tool will perform the following actions through Homebrew without the need fo
 - Upgrade all outdated packages
 - Remove all outdated packages following successful upgrades
 
+## Quickstart
+
+- Clone the Chug Github repository
+- Drag the Chug.app application (repository `build` directory) to a directory on your OS X system
+- Double click the Chug icon to execute your Homebrew updates and cleanup
+- Prost!
+
 ## System Requirements
 
 OS X 10.7 or later and support for 64-bit Intel binaries
@@ -30,17 +37,29 @@ If the output from the above command is not `/usr/local/bin/brew`, please see th
 
 ## Install
 
-Clone the git repository locally with the command:
+You have the option to install the pre-built application that is released in the repository or customize and build it yourself.  Both approaches require the Chug repository files.
+
+You can clone the Chug repository files on your local system with the command:
 
 ```
 $ git clone https://github.com/chrissimpkins/chug.git
 ```
 
-or [download the repository ZIP archive file](https://github.com/chrissimpkins/chug/archive/master.zip) and unpack it locally on your system.
+or you can [download the repository ZIP archive file](https://github.com/chrissimpkins/chug/archive/master.zip) and unpack it on your system.
 
-Next, drag and drop the Chug.app application in the repository `build` directory to a directory on your OS X system. The Desktop is a pretty handy site but you can place it anywhere that you like.
+### Install the Pre-Built Application
+
+Drag and drop the Chug.app application in the repository `build` directory to a directory on your OS X system. The Desktop is a pretty handy site but you can place it in your Applications directory or anywhere that you darn well please.
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-install.gif" alt="Chug drag and drop install" width="450">
+
+### Build the Application and Install
+
+Chug can be built with the free, open source tool [Platypus](https://github.com/sveinbjornt/Platypus).
+
+First, [download Platypus](https://github.com/sveinbjornt/Platypus/releases) and install it on your OS X system.
+
+Then, use one of the approaches
 
 ## Usage
 
@@ -69,5 +88,3 @@ If Chug isn't cool, refreshing, with no aftertaste, please [submit a new issue r
 
 Chug is licensed under the MIT license.  The full text of the license is [here](https://github.com/chrissimpkins/chug/blob/master/LICENSE).
 
-
-## Prost!
