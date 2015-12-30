@@ -57,11 +57,23 @@ Drag and drop the Chug.app application in the repository `build` directory to a 
 
 Chug can be built with the free, open source tool [Platypus](https://github.com/sveinbjornt/Platypus).  This serves as a GUI application bundler around a [simple shell script](https://github.com/chrissimpkins/chug/blob/master/src/chug.sh) that executes your Homebrew tasks.
 
-First, [download Platypus](https://github.com/sveinbjornt/Platypus/releases) and install it on your OS X system.
+First, [download Platypus](https://github.com/sveinbjornt/Platypus/releases) and install it on your OS X system. Launch Platypus.
 
-Then, configure Platypus profile settings:
+Then, configure the Platypus profile settings:
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/platypus.png" alt="Platypus settings for Chug builds" width="600">
+
+- **App Name** : `Chug`
+- **Script Type** : Shell, `/bin/sh`
+- **Script Path** : `[local Chug repository parent directory path]/chug/src/chug.sh`
+- **Output** : Progress Bar
+- **Platypus Icon** : Icon Selection Button > Select Image File > `[local Chug repository parent directory path]/chug/img/chug@3x.png`
+- **Identifier** : com.csimpkins.Chug
+- **Author** :  Christopher Simpkins
+- **Version** : *set to the appropriate version number**
+- **Bundled Files** : `[local Chug repository parent directory path]/chug/docs/Credits.html`
+
+Check the `Remain running after initial execution` checkbox and uncheck any others that are checked by default.  Click the `Create` button and build your application in the directory of your choice.
 
 ## Usage
 
