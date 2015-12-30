@@ -15,7 +15,7 @@ The tool will perform the following actions through Homebrew without the need fo
 
 ## Quickstart
 
-- Clone the Chug Github repository
+- Clone the Chug Github repository (`git clone https://github.com/chrissimpkins/chug.git`)
 - Drag the Chug.app application (repository `build` directory) to a directory on your OS X system
 - Double click the Chug icon to execute your Homebrew updates and cleanup
 - Prost!
