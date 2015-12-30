@@ -47,19 +47,21 @@ $ git clone https://github.com/chrissimpkins/chug.git
 
 or you can [download the repository ZIP archive file](https://github.com/chrissimpkins/chug/archive/master.zip) and unpack it on your system.
 
-### Install the Pre-Built Application
+### A. Install the Pre-Built Application
 
 Drag and drop the Chug.app application in the repository `build` directory to a directory on your OS X system. The Desktop is a pretty handy site but you can place it in your Applications directory or anywhere that you darn well please.
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-install.gif" alt="Chug drag and drop install" width="450">
 
-### Build the Application and Install
+### B. Build the Application Yourself and Install
 
-Chug can be built with the free, open source tool [Platypus](https://github.com/sveinbjornt/Platypus).
+Chug can be built with the free, open source tool [Platypus](https://github.com/sveinbjornt/Platypus).  This serves as a GUI application bundler around a [simple shell script](https://github.com/chrissimpkins/chug/blob/master/src/chug.sh) that executes your Homebrew tasks.
 
 First, [download Platypus](https://github.com/sveinbjornt/Platypus/releases) and install it on your OS X system.
 
-Then, use one of the approaches
+Then, configure Platypus profile settings:
+
+<img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/platypus.png" alt="Platypus settings for Chug builds" width="600">
 
 ## Usage
 
