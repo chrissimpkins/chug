@@ -35,12 +35,17 @@ Use the following command to confirm that the Homebrew executable is installed o
 $ which brew
 ```
 
-If the output from the above command is not `/usr/local/bin/brew`, please see the [Homebrew documentation](http://brew.sh/) for details on how to modify your install path, or modify the shell script with your Homebrew executable path and rebuild the application bundle.  See the customization section below for details.
+If the output from the above command is not `/usr/local/bin/brew`, please see the [Homebrew documentation](http://brew.sh/) for details on how to modify your install path, or modify the Chug shell script with your Homebrew executable path and rebuild the application bundle.  See the customization section below for details.
 
 
 ## Install
 
-You have the option to install the pre-built application that is released in the repository or customize and build it yourself.  Both approaches require the Chug repository files.
+You have the option to
+
+- a) Install the pre-built OS X application that is released in the Chug repository
+- b) Customize and build the OS X application bundle yourself
+
+Both approaches require the Chug repository files.
 
 You can clone the Chug repository files on your local system with the command:
 
