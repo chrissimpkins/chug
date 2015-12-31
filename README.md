@@ -115,7 +115,7 @@ If you create something shiny and neat, submit it as a pull request and we'll ma
 
 ### Customize the Standard Output Typeface
 
-Chug uses Monaco 11 as the default standard output typeface (displayed when you click the `Details` button on the interface).  To modify it, click the `Text Settings` button in Platypus and select the typeface and size that you would like to use.
+Chug uses Monaco 11 as the default standard output typeface (displayed when you click the `Details` button on the interface).  To modify it, click the `Text Settings` button in Platypus, then select the typeface and size that you would like to use.
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-text-settings.png" alt="Modify typeface settings in Chug" width="600">
 
