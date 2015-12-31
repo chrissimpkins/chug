@@ -13,6 +13,8 @@ The tool will perform the following actions through Homebrew without the need fo
 - Upgrade all outdated packages
 - Remove all outdated packages following successful upgrades
 
+<img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-quiet-2.gif" alt="Progress bar displays Chug progress" width="700">
+
 ## Quickstart
 
 - Clone the Chug Github repository (`git clone https://github.com/chrissimpkins/chug.git`)
