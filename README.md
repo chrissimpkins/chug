@@ -6,7 +6,7 @@
 
 <img align="right" src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-quiet-2.gif" alt="Progress bar displays Chug progress" width="350" style="float: right; margin-left: 30px;">
 
-Chug is an OS X application that turns your routine installed [Homebrew](http://brew.sh/) package upgrades and outdated package cleanup into a simple desktop icon double click workflow.
+Chug is an OS X application that turns your routine installed [Homebrew](http://brew.sh/) package upgrades and outdated package cleanup into a simple desktop icon click workflow.
 
 The tool will perform the following actions through Homebrew without the need for a terminal or manual/scripted/aliased command execution on the command line:
 
@@ -100,11 +100,13 @@ Click the Quit button to close the update progress indicator window and exit Chu
 
 ### Customize the Shell Script
 
-Your Homebrew upgrades and cleanup are executed with a [shell script](https://github.com/chrissimpkins/chug/blob/master/src/chug.sh).  Modify the repository `src/chug.sh` script so that it meets your needs and then follow the build instructions above to bundle a new version of the application.  Pull requests with generally useful changes are highly encouraged!
+Your Homebrew upgrades and cleanup are executed with an extensively annotated [shell script](https://github.com/chrissimpkins/chug/blob/master/src/chug.sh).  Load the shell script on your local Chug repository path `src/chug.sh` in a text editor and modify it so that it meets your needs.  Then follow the build instructions above to bundle a new version of the application.  Pull requests with generally useful changes are highly encouraged!
 
 ### Customize the Icon
 
-You can modify the application icon in Platypus.  Click the cogwheel icon below the icon display in the upper left hand corner of the Platypus profile window and select any image on your system.  Use the build instructions above to bundle your application with the new icon.
+You can modify the application icon in Platypus.  Click the cogwheel icon below the icon display in the upper left hand corner of the Platypus profile window and select `Any Image File`.  Use the menus to select any image on your system.  It is not necessary to use the .icns format, .png files work just fine.  Use the build instructions above to bundle your application with the new icon.
+
+If you create something shiny and neat, submit it as a pull request and we'll make it available to others who don't like chocolate brown on their desktop :)
 
 ## Issues
 
