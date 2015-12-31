@@ -1,3 +1,7 @@
+### v0.9.2
+
+- added extensive annotations to shell script source to support simple user modifications
+
 ### v0.9.1
 
 - added Homebrew executable path check
