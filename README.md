@@ -4,6 +4,8 @@
 
 ## What is Chug?
 
+<img align="right" src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-quiet-2.gif" alt="Progress bar displays Chug progress" width="350" style="float: right; margin-left: 30px;">
+
 Chug is an OS X application that turns your routine installed Homebrew package upgrades and outdated package cleanup into a simple desktop icon double click workflow.
 
 The tool will perform the following actions through Homebrew without the need for a terminal or manual/scripted/aliased command execution on the command line:
@@ -13,7 +15,6 @@ The tool will perform the following actions through Homebrew without the need fo
 - Upgrade all outdated packages
 - Remove all outdated packages following successful upgrades
 
-<img align="right" src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-quiet-2.gif" alt="Progress bar displays Chug progress" width="350" style="float: right; margin-left: 30px;">
 
 ## Quickstart
 
