@@ -52,7 +52,7 @@ or you can [download the repository ZIP archive file](https://github.com/chrissi
 
 ### A. Install the Pre-Built Application Bundle
 
-Drag and drop the Chug.app application in the repository `build` directory to a directory on your OS X system. The Desktop is a pretty handy site but you can place it in your Applications directory, pin it to your Dock, or place it anywhere that you darn well please.
+Drag and drop the Chug.app application in the repository `build` directory to a directory on your OS X system. The Desktop is a pretty handy site but you can place it in your Applications directory & pin it to your Dock, or place it anywhere that you darn well please.
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-install.gif" alt="Chug drag and drop install" width="450">
 
