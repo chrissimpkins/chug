@@ -93,6 +93,16 @@ Click the Details dropdown to view the standard output text from Homebrew as the
 
 Click the Quit button to close the update progress indicator window and exit Chug.
 
+## Customize Chug
+
+### Customize the Shell Script
+
+Your Homebrew upgrades and cleanup are executed with a [shell script](https://github.com/chrissimpkins/chug/blob/master/src/chug.sh).  Modify the repository `src/chug.sh` script so that it meets your needs and then follow the build instructions above to bundle a new version of the application.  Pull requests with generally useful changes are highly encouraged!
+
+### Customize the Icon
+
+You can modify the application icon in Platypus.  Click the cogwheel icon below the icon display in the upper left hand corner of the Platypus profile window and select any image on your system.  Use the build instructions above to bundle your application with the new icon.
+
 ## Issues
 
 If Chug isn't cool, refreshing, with no aftertaste, please [submit a new issue report](https://github.com/chrissimpkins/chug/issues/new) on the Github repository issue tracker.
