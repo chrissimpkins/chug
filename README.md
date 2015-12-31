@@ -109,9 +109,17 @@ Your Homebrew upgrades and cleanup are executed with an extensively annotated [s
 
 ### Customize the Icon
 
-You can modify the application icon in Platypus.  Click the cogwheel icon below the icon display in the upper left hand corner of the Platypus profile window and select `Any Image File`.  Use the menus to select any image on your system.  It is not necessary to use the .icns format, .png files work just fine.  Use the build instructions above to bundle your application with the new icon.
+You can modify the application icon in Platypus.  Click the cogwheel icon below the icon display in the upper left hand corner of the Platypus profile window and select `Select Image File`.  Use the menus to select any image on your system.  It is not necessary to use the .icns format, .png files work just fine.  Use the build instructions above to bundle your application with the new icon.
 
 If you create something shiny and neat, submit it as a pull request and we'll make it available to others who don't like chocolate brown on their desktop :)
+
+### Customize the Standard Output Typeface
+
+Chug uses Monaco 11 as the default standard output typeface (displayed when you click the `Details` button on the interface).  To modify it, click the `Text Settings` button in Platypus and select the typeface and size that you would like to use.
+
+<img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-text-settings.png" alt="Modify typeface settings in Chug" width="600">
+
+Use the build instructions above to bundle your application with the new typeface settings.
 
 ## Issues
 
