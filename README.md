@@ -58,7 +58,7 @@ Drag and drop the Chug.app application in the repository `build` directory to a 
 
 ### B. Build the Application Yourself and Install Application Bundle
 
-Chug can be built with the free, open source tool [Platypus](https://github.com/sveinbjornt/Platypus).  This serves as a GUI application bundler around a [simple shell script](https://github.com/chrissimpkins/chug/blob/master/src/chug.sh) that executes your Homebrew tasks.  The following instructions are current as of the Platypus v5.0 release.
+You can build Chug yourself with the free, open source tool [Platypus](https://github.com/sveinbjornt/Platypus).  This serves as a GUI application bundler around a [simple shell script](https://github.com/chrissimpkins/chug/blob/master/src/chug.sh) that executes your Homebrew tasks.  The following instructions are current as of the Platypus v5.0 release.
 
 First, [download Platypus](https://github.com/sveinbjornt/Platypus/releases) and install it on your OS X system. Launch Platypus.
 
