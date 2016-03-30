@@ -1,3 +1,8 @@
+### v0.9.3
+
+- Chug window now remembers size and position between launches
+- Fixes incorrect window behavior during progress bar display
+
 ### v0.9.2
 
 - added extensive annotations to shell script source to support simple user modifications
