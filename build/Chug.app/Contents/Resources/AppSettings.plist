@@ -6,26 +6,30 @@
 	<true/>
 	<key>AcceptsText</key>
 	<false/>
+	<key>Authentication</key>
+	<false/>
 	<key>Creator</key>
-	<string>Platypus-5.0</string>
+	<string>Platypus-5.1</string>
 	<key>Droppable</key>
 	<false/>
+	<key>Interpreter</key>
+	<string>/bin/sh</string>
 	<key>InterpreterArgs</key>
 	<array/>
-	<key>OutputType</key>
+	<key>Output</key>
 	<string>Progress Bar</string>
 	<key>PromptForFileOnLaunch</key>
 	<false/>
-	<key>RemainRunningAfterCompletion</key>
+	<key>RemainRunning</key>
 	<true/>
-	<key>RequiresAdminPrivileges</key>
-	<false/>
 	<key>ScriptArgs</key>
 	<array/>
-	<key>ScriptInterpreter</key>
-	<string>/bin/sh</string>
 	<key>Secure</key>
 	<false/>
+	<key>Suffixes</key>
+	<array>
+		<string>*</string>
+	</array>
 	<key>TextBackground</key>
 	<string>#ffffff</string>
 	<key>TextEncoding</key>
@@ -33,8 +37,10 @@
 	<key>TextFont</key>
 	<string>Monaco</string>
 	<key>TextForeground</key>
-	<string>#000000</string>
+	<string>#0b0b0b</string>
 	<key>TextSize</key>
 	<real>11</real>
+	<key>UniformTypes</key>
+	<array/>
 </dict>
 </plist>
