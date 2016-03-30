@@ -2,6 +2,7 @@
 
 - Chug window now remembers size and position between launches
 - Fixes incorrect window behavior during progress bar display
+- added new .dmg installer
 
 ### v0.9.2
 
