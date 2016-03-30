@@ -51,6 +51,8 @@ You have the option to
 
 <img src="https://raw.githubusercontent.com/chrissimpkins/chug/master/img/chug-install-example.png" alt="Chug drag and drop install" width="539">
 
+You can access Chug via Launchpad and pin the icon to your dock for easy access.
+
 ### B. Build the Application Yourself and Install Application Bundle
 
 You can build Chug yourself with the free, open source tool [Platypus](https://github.com/sveinbjornt/Platypus).  This serves as a GUI application bundler around a [simple shell script](https://github.com/chrissimpkins/chug/blob/master/src/chug.sh) that executes your Homebrew tasks.  If you intend to customize Chug before you build a new version, [additional details are found below](https://github.com/chrissimpkins/chug#customize-chug).  The following instructions are current as of the Platypus v5.1 release.
