@@ -1,3 +1,11 @@
+## Changelog
+
+### v0.10.0
+
+- removed deprecated `--all` option from brew upgrade command
+- minor script updates
+- script documentation updates
+
 ### v0.9.3
 
 - Chug window now remembers size and position between launches
