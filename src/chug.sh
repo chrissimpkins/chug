@@ -2,18 +2,16 @@
 
 # //////////////////////////////////////////////////////////////////
 # chug.sh
-# Simple, clickable Homebrew package management for OS X
-# Copyright 2015 Christopher Simpkins
+# Simple, clickable Homebrew package management for macOS
+# Copyright 2018 Christopher Simpkins
 # MIT License
 # //////////////////////////////////////////////////////////////////
 
 echo "Chugging..."
 
 ####################################################################
-# The default Homebrew executable path.
-# - Modify this path if you installed Homebrew in a different
-#   location
-# - Test for your Homebrew executable path with `which brew`
+# The Homebrew executable path.
+#  - automatically detected at runtime
 ####################################################################
 CHUG_BREW_PATH="/usr/local/bin/brew"
 
@@ -31,11 +29,12 @@ if [ -f "$CHUG_BREW_PATH" ]; then
 	echo "PROGRESS:25"
 else
 	# alert for failures using Platypus echo syntax
+	echo "${CHUG_BREW_PATH}"
 	echo " "
 	echo "ALERT:Chug|There was an error with the Homebrew path.  Please see the log under the Details dropdown for additional information."
-	echo "[X] ERROR: Chug was unable to identify the Homebrew executable 'brew' on the path '/usr/local/bin/brew'.  This is a requirement for execution."
+	echo "[X] ERROR: Chug was unable to identify the Homebrew executable 'brew'.  This is a requirement for execution."
 	echo " "
-	echo "Please review the Homebrew documentation (http://brew.sh/) for additional details about how to install the brew executable on the recommended path."
+	echo "Please review the Homebrew documentation (http://brew.sh/) for additional details about how to install the brew executable on your macOS system."
 	exit 1
 fi
 
@@ -66,7 +65,7 @@ fi
 
 #####################################################################
 # Upgrade all installed Homebrew packages to current releases
-# - calls Homebrew executable with command `brew upgrade --all`
+# - calls Homebrew executable with command `brew upgrade`
 # - checks exit status code and either alerts for failure or
 #   increments progress bar for success
 #####################################################################
@@ -75,7 +74,7 @@ echo " "
 echo "[2] Looking for outdated Homebrew packages..."
 
 # call Homebrew executable
-${CHUG_BREW_PATH} upgrade --all
+${CHUG_BREW_PATH} upgrade
 
 # test exit status code
 if (( $? )); then
